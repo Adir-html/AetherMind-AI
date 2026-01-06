@@ -1,5 +1,5 @@
 from groq import Groq
-client = Groq(api_key="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")
+client = Groq(api_key="YOUR_API_KEY_HERE")
 
 
 def summarize_chunk(text: str) -> str:
